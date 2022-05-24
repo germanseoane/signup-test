@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.form {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 18px;
+}
+.red {
+  color: rgb(206, 16, 16);
+}
+.green {
+  color: rgb(15, 184, 15);
+}
+input {
+  width: 50%;
+  padding: 6px;
+  border: none;
+  border-bottom: black 1px solid;
+  outline: none;
+  font-size: 0.8rem;
+  margin-top: 8px;
+}
+p {
+  font-size: 0.8rem;
+}
+button {
+  width: 52%;
+  padding: 6px;
+  font-size: 0.9rem;
+  border: none;
+  border-bottom: black 1px solid;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  outline: none;
+}
+.enabled {
+  background-color: rgb(15, 184, 15);
+  color: white;
+}
+.enabled:hover {
+  background-color: rgb(50, 206, 50);
+}
